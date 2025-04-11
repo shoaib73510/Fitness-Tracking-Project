@@ -1,0 +1,33 @@
+/* Custom background styling for the page */
+.bg {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Card-specific styling */
+.card {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+   box-shadow: 4px 4px 4px black,-4px -4px 5px black!important;
+
+}
+
+.card:hover {
+    transform: scale(1.05); /* Subtle hover effect */
+}
+
+.del {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/* Media Query for additional fine-tuning */
+@media (max-width: 576px) {
+    .card {
+        margin-bottom: 1rem;
+    }
+
+    h6 {
+        font-size: 0.9rem; /* Reduce font size on very small screens */
+    }
+}

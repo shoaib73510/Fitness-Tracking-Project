@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/FITNESS TRACKING PROJECT/",
+  base: "https://shoaib73510.github.io/Fitness-Tracking-Project/",
   plugins: [react()],
 })
